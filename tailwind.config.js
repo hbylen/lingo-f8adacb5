@@ -6,29 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: {
-          50: '#eff6ff',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
-        },
-        secondary: {
-          500: '#8b5cf6',
-          600: '#7c3aed',
-        },
-        background: {
-          light: '#f9fafb',
-          dark: '#111827',
-        },
-        surface: {
-          light: '#ffffff',
-          dark: '#1f2937',
-        }
-      },
-      animation: {
-        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'ping-slow': 'ping 3s cubic-bezier(0, 0, 0.2, 1) infinite',
+      backdropBlur: {
+        xs: '2px',
       }
     },
   },

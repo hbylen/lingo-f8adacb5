@@ -6,6 +6,9 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: true,
-    allowedHosts: true
+    allowedHosts: true,
+    headers: {
+      'Content-Type': 'application/javascript'
+    }
   }
 });

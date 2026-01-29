@@ -2,21 +2,21 @@
   "alarms": [
     {
       "id": "1",
-      "time": "07:00",
-      "active": true,
+      "time": "08:00",
+      "enabled": true,
       "label": "起床"
     },
     {
       "id": "2",
       "time": "12:30",
-      "active": true,
-      "label": "吃午餐"
+      "enabled": true,
+      "label": "午餐"
     },
     {
       "id": "3",
-      "time": "22:00",
-      "active": false,
-      "label": "睡覺"
+      "time": "18:00",
+      "enabled": false,
+      "label": "下班"
     }
   ]
 }
