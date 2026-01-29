@@ -1,0 +1,22 @@
+{
+  "alarms": [
+    {
+      "id": "1",
+      "time": "07:00",
+      "active": true,
+      "label": "起床"
+    },
+    {
+      "id": "2",
+      "time": "12:30",
+      "active": true,
+      "label": "吃午餐"
+    },
+    {
+      "id": "3",
+      "time": "22:00",
+      "active": false,
+      "label": "睡覺"
+    }
+  ]
+}
